@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-[Roboto]">
+    
+    <!-- Navbar  -->
+    <header class="fixed top-0 left-0 w-full bg-transparent text-black transition-all duration-300 z-50">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <a href="#" class="text-xl font-bold">My Portfolio</a>
+            <button id="menu-btn" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="hover:underline">Home</a>
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#services" class="hover:underline">Services</a>
+                <a href="#skills" class="hover:underline">Skills</a>
+                <a href="#projects" class="hover:underline">Projects</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white text-black md:hidden">
+            <a href="#home" class="block py-2 px-4">Home</a>
+            <a href="#about" class="block py-2 px-4">About</a>
+            <a href="#services" class="block py-2 px-4">Services</a>
+            <a href="#skills" class="block py-2 px-4">Skills</a>
+            <a href="#projects" class="block py-2 px-4">Projects</a>
+            <a href="#contact" class="block py-2 px-4">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 flex flex-col md:flex-row items-center justify-center h-screen px-6 bg-gray-100">
+        <!-- Image - Appears first on mobile, first on desktop (left side) -->
+        <div class="md:w-1/2 flex justify-center order-1">
+            <img src="images/hello.svg" alt="Hello Illustration" class="max-w-full h-auto">
+        </div>
+    
+        <!-- Text - Appears below the image on mobile, right side on desktop -->
+        <div class="md:w-1/2 text-left order-2">
+            <p class="text-xl text-gray-600">HELLO!</p>
+            <h2 class="text-3xl md:text-5xl font-bold mt-2 ">I'm <span class="text-yellow-400">Hepin Suthar</span></h2>
+            <p class="text-lg md:text-xl text-gray-700 mt-4 ">Front End Developer </p>
+            <!-- & UI/UX Designer -->
+            <div class="flex space-x-6 mt-6 text-gray-600 text-2xl">
+                <a href="https://www.instagram.com/hepin_suthar.26" target="_blank" class="hover:text-black">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/hepin-suthar-ab2446301" target="_blank" class="hover:text-black">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/HepinSuthar" target="_blank" class="hover:text-black">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+    
+            <button class="mt-6 px-6 py-3 bg-yellow-300 text-black font-bold rounded-full shadow-md hover:bg-yellow-400 text-sm">
+                Download My Resume <i class="fa-solid fa-download mx-1"></i>
+            </button>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 md:px-12 lg:px-24 bg-white text-center md:text-left">
+        <div class="max-w-8xl mx-auto flex flex-col md:flex-row items-center">
+            <!-- Text Content - Appears first on mobile, right on desktop -->
+            <div class="md:w-1/2 text-left order-1">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Hi, I'm Hepin Suthar.</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    I am a dedicated college student currently in the 4th semester at Sankalchand Patel University. 
+                    I possess a solid understanding of C++, HTML, CSS, Tailwind CSS, and Python. My knowledge extends to various programming languages, as well as database management.
+                </p>
+                <ul class="text-gray-800 text-lg space-y-2">
+                    <li><strong>Age:</strong> 20</li>
+                    <li><strong>Email:</strong> sutharhepin2610@gmail.com</li>
+                    <li><strong>Phone:</strong> +91-</li>
+                    <li><strong>Address:</strong> Visnagar, Mehsana</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hepin-suthar-ab2446301" target="_blank" class="text-blue-600 hover:underline">Hepin Suthar</a></li>
+                </ul>
+            </div>
+    
+            <!-- Image - Appears below text on mobile, centered -->
+            <div class="md:w-1/2 flex justify-center order-2 mt-8 md:mt-0">
+                <img src="images/about.jpg" alt="Profile Image" class="md:w-screen h-auto">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Service section  -->
+    <section id="services" class="py-20 bg-white text-center">
+        <h2 class="text-4xl font-bold">My Services</h2>
+        <p class="text-gray-500 mt-4 max-w-5xl mx-auto">
+
+        </p>
+    
+        <!-- Service Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12 max-w-5xl mx-auto">
+    
+            <!-- Front-end Development -->
+            <div class="group flex flex-col items-center">
+                <img src="images/front-end.png" alt="Web Development" class="w-40">
+                <h3 class="text-xl font-semibold mt-4  ">Front-end Development</h3>
+            </div>
+    
+            <!-- UI/UX -->
+            <div class="group flex flex-col items-center">
+                <img src="images/ux.png" alt="UI/UX" class="w-40">
+                <h3 class="text-xl font-semibold mt-4 ">UI/UX</h3>
+            </div>
+    
+            <!-- Programming -->
+            <div class="group flex flex-col items-center">
+                <img src="images/programming.png" alt="Programming" class="w-40">
+                <h3 class="text-xl font-semibold mt-4 ">Programming</h3>
+            </div>
+    
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 bg-white">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">My Top Skills</h2>
+        
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
+                <!-- Skill Cards -->
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML5" class="w-12 h-12">
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS3" class="w-12 h-12">
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JS" class="w-12 h-12">
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://s.yimg.com/fz/api/res/1.2/VRd5d.DjKWj2kBFLMst68g--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MjYw/https://s.yimg.com/zb/imgv1/0f0f5a05-3ee9-3b18-a598-0c0b40125d45/t_500x300" alt="PYTHON" class="w-12 h-12">
+                </div>
+                <!-- <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="w-12 h-12">
+                </div> -->
+                <!-- <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" alt="C++" class="w-12 h-12">
+                </div> -->
+                <!-- <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://s.yimg.com/fz/api/res/1.2/bHKpMoLAEkNWnOn2KsI4hw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/7b9922e6-230e-39ac-b816-dc0dad15b069/t_500x300" alt="PHP" class="w-12 h-12">
+                </div> -->
+                <!-- <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="BOOTSTRAP" class="w-12 h-12">
+                </div> -->
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg" alt="TAILWINDCSS" class="w-12 h-12">
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="GIT" class="w-12 h-12">
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GITHUB" class="w-12 h-12">
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="CHATGPT" class="w-12 h-12">
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="FIGMA" class="w-12 h-12">
+                </div>
+                <!-- <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://s.yimg.com/fz/api/res/1.2/N9PvfUPT4Yy4aB1jEtp1Gw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/48cab215-c745-3074-8e06-d2580749e692/t_500x300" alt="CANVA" class="w-12 h-12">
+                </div> -->
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center w-24 h-24">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS CODE" class="w-12 h-12">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-20  text-center bg-none">
+        <h2 class="text-4xl font-bold">Projects</h2>
+        <p class="text-gray-600 mt-4 max-w-3xl mx-auto"></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <form>
+                    <label class="block text-gray-700 font-semibold">Name</label>
+                    <input type="text" class="w-full p-2 border rounded-md mb-4" placeholder="Your Name" />
+                
+                    <label class="block text-gray-700 font-semibold">Email</label>
+                    <input type="email" class="w-full p-2 border rounded-md mb-4" placeholder="Your Email" />
+                
+                    <label class="block text-gray-700 font-semibold">Message</label>
+                    <textarea class="w-full p-2 border rounded-md mb-4" rows="4" placeholder="Your Message"></textarea>
+                
+                    <button class="bg-yellow-400 text-black px-6 py-2 rounded-md font-semibold hover:bg-yellow-500">Send</button>
+                </form>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Let's talk how I can help you!</h3>
+                <p class="text-gray-600 mb-4">If you like my work and want to avail my services then drop me a message using the contact form.</p>
+                <p class="text-gray-600 mb-4">Or get in touch using my email or my contact number.</p>
+                <p class="text-gray-600 mb-2"><strong>Email:</strong> sutharhepin2610@gmail.com</p>
+                <p class="text-gray-600"><strong>Phone:</strong> +91-</p>
+            </div>
+                </div>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-100 text-black text-center py-7 font-sans h-60 ">
+        <h2 class="text-2xl font-semibold mt-15 ">Hepin Suthar</h2>
+        <p class="text-lg">Front End Developer </p>
+        <!-- & UI/UX Designer -->
+        <div class="mt-3 space-x-4 ">
+            <a href="https://www.instagram.com/hepin_suthar.26?igsh=OHZqZWptNDFzdnRq" target="_blank" class="text-black hover:text-gray-800">
+                <i class="fa-brands fa-instagram"></i>
+            </a> 
+            <a href="https://www.linkedin.com/in/hepin-suthar-ab2446301" target="_blank" class="text-black hover:text-gray-800">
+                <i class="fa-brands fa-linkedin fon"></i>
+            </a> 
+            <a href="https://github.com/HepinSuthar" target="_blank" class="text-black hover:text-gray-800">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <p class="mt-3 text-sm">©Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+<script>
+    // Header Scroll Effect
+    window.addEventListener('scroll', function () {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('bg-white', 'text-black');
+        } else {
+            header.classList.remove('bg-white', 'text-black');
+        }
+    });
+
+    // Mobile Navigation Toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', function () {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close menu on link click (for mobile)
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+</script>
+</html>
