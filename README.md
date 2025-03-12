@@ -34,6 +34,6 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 - **GitHub Pages**: Push changes and enable GitHub Pages.
 
 ## 📧 Contact
-For any queries or collaborations, reach out via **[sutharhepin2610@gmail.com]** or connect on <a href="www.linkedin.com/in/hepin-suthar-ab2446301">Linkdin</a>
+For any queries or collaborations, reach out via **[sutharhepin2610@gmail.com]** or connect on <a href="https://www.linkedin.com/in/hepin-suthar-ab2446301">Linkdin</a>
 ---
 Made with ❤️ by [Hepin Suthar]
