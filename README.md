@@ -3,7 +3,9 @@
 Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a **B.Tech Information Technology** student passionate about **web development**.
 
 ## 🚀 Live Demo
-[https://hepinsuthar.github.io/portfolio/](#) *(Replace with your live Netlify/GitHub Pages link)*
+[https://hepinsuthar.github.io/portfolio/](#)
+<a href="https://www.example.com">Click Here</a>
+
 
 ## 📌 Features
 - **Modern UI**: Built with **HTML, CSS, Tailwind CSS** for a clean and responsive design.
@@ -21,17 +23,14 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 │── index.html
 │── styles.css
 ├── images/
+|        ├── about.jpg
+|        ├── front-end.png
+|        ├── hello.png
+|        ├── hello.svg
+|        ├── programming.png
+|        ├── ux.png   
 │── README.md
 ```
-
-## 📦 Installation
-<!-- 1. Clone the repository: -->
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   ```
-2. Open `index.html` in your browser.
-3. Customize as needed!
-
 ## 🚀 Deployment
 - **GitHub Pages**: Push changes and enable GitHub Pages.
 
