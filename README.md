@@ -3,8 +3,7 @@
 Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a **B.Tech Information Technology** student passionate about **web development**.
 
 ## 🚀 Live Demo
-[https://hepinsuthar.github.io/portfolio/](#)
-<a href="https://www.example.com">Click Here</a>
+<a href="https://hepinsuthar.github.io/portfolio/">Live Demo</a>
 
 
 ## 📌 Features
@@ -35,7 +34,6 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 - **GitHub Pages**: Push changes and enable GitHub Pages.
 
 ## 📧 Contact
-For any queries or collaborations, reach out via **[sutharhepin2610@gmail.com]** or connect on **[www.linkedin.com/in/hepin-suthar-ab2446301]**.
-
+For any queries or collaborations, reach out via **[sutharhepin2610@gmail.com]** or connect on <a href="www.linkedin.com/in/hepin-suthar-ab2446301">Linkdin</a>
 ---
 Made with ❤️ by [Hepin Suthar]
