@@ -16,8 +16,7 @@ The portfolio showcases:
 The project is built using **React + Vite + Tailwind CSS** and deployed
 on **Vercel**.
 
-🌐 Live Website:
-https://hepinsuthar.vercel.app
+🌐 [Live Website](https://hepinsuthar.vercel.app)
 
 ------------------------------------------------------------------------
 
@@ -75,7 +74,7 @@ https://hepinsuthar.vercel.app
 ## 📸 Screenshot
 
 ``` md
-![Screenshot](portfolio.png)
+[Screenshot](portfolio.png)
 ```
 
 ------------------------------------------------------------------------
