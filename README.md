@@ -74,7 +74,7 @@ on **Vercel**.
 ## 📸 Screenshot
 
 ``` md
-[Screenshot](portfolio.png)
+![Screenshot](./screenshots/portfolio.png)
 ```
 
 ------------------------------------------------------------------------
