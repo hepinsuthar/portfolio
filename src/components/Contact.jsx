@@ -69,7 +69,7 @@ const ContactSection = () => {
               <label className="block text-sm font-medium mb-2">Your Name</label>
               <input
                 type="text"
-                placeholder="John Doe"
+                placeholder="Enter your name"
                 value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
                 className="w-full px-4 py-3 rounded-xl border border-border bg-card focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition hover:border-primary/50"
@@ -81,7 +81,7 @@ const ContactSection = () => {
               <label className="block text-sm font-medium mb-2">Email Address</label>
               <input
                 type="email"
-                placeholder="john@example.com"
+                placeholder="Enter your email address"
                 value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
                 className="w-full px-4 py-3 rounded-xl border border-border bg-card focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition hover:border-primary/50"
