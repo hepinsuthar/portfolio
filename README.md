@@ -1,16 +1,164 @@
-# React + Vite
+# 💼 Hepin Suthar -- Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Introduction
 
-Currently, two official plugins are available:
+This is a modern and fully responsive personal portfolio website built
+by **Hepin Suthar**, a passionate Frontend Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The portfolio showcases:
+-   About Me
+-   Technical Skills
+-   Education
+-   Certifications
+-   Projects
+-   Contact Form (integrated with EmailJS)
 
-## React Compiler
+The project is built using **React + Vite + Tailwind CSS** and deployed
+on **Vercel**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌐 Live Website:
+https://hepinsuthar.vercel.app
 
-## Expanding the ESLint configuration
+------------------------------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Table of Contents
+
+-   [Introduction](#-introduction)
+-   [Features](#-features)
+-   [Tech Stack](#-tech-stack)
+-   [Screenshot](#-screenshot)
+-   [Project Structure](#-project-structure)
+-   [Installation](#-installation)
+-   [Deployment](#-deployment)
+-   [Contributor](#-contributor)
+
+------------------------------------------------------------------------
+
+## ✨ Features
+
+-   Built with Vite for fast development & optimized builds
+-   Styled using Tailwind CSS v4
+-   Fully Responsive Design (Mobile, Tablet, Desktop)
+-   Smooth Navigation using React Router
+-   Animations powered by Framer Motion
+-   Contact Form integrated with EmailJS
+-   Clean UI with Icons (Lucide + React Icons)
+-   Deployed on Vercel
+
+------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+### Frontend
+
+-   React 19
+-   Vite
+-   Tailwind CSS v4
+-   React Router DOM
+
+### UI & Animation
+
+-   Framer Motion
+-   Lucide React
+-   React Icons
+-   React Simple Typewriter
+
+### Email Integration
+
+-   EmailJS
+
+### Deployment
+
+-   Vercel
+
+---------------------------------------------------------------------
+## 📸 Screenshot
+
+``` md
+![Screenshot](portfolio.png)
+```
+
+------------------------------------------------------------------------
+
+## 📁 Project Structure
+```
+portfolio/
+    ├── public/
+    │   ├── HS.png
+    │   ├── vite.svg
+    ├── src/
+    │   ├── assets/
+    │   │   ├── about.jpeg
+    │   │   ├── react.svg
+    │   │   ├── SCMS.png
+    │   ├── components/
+    │   │   ├── About.jsx
+    │   │   ├── Certifications.jsx
+    │   │   ├── Contact.jsx
+    │   │   ├── Education.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Hero.jsx
+    │   │   ├── Loader.jsx
+    │   │   ├── Navbar.jsx
+    │   │   ├── Projects.jsx
+    │   │   └── Skills.jsx
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    └── vite.config.js
+```
+------------------------------------------------------------------------
+
+## ⚙️ Installation
+
+### Clone the repository
+
+    git clone https://github.com/your-username/your-repository-name.git
+    cd your-repository-name
+
+### Install dependencies
+
+    npm install
+
+### Run development server
+
+    npm run dev
+
+App will run on: http://localhost:5173
+
+------------------------------------------------------------------------
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**.
+
+### Steps to Deploy:
+
+1.  Push project to GitHub
+2.  Login to Vercel
+3.  Import your repository
+4.  Click Deploy
+
+For production build:
+
+    npm run build
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Contributor
+
+**Hepin Suthar**\
+Frontend Developer
+
+- [LinkedIn](https://www.linkedin.com/in/hepin-suthar-ab2446301/)
+- [GitHub](https://github.com/HepinSuthar)
+- [Email](sutharhepin2610@gmail.com)
+
+------------------------------------------------------------------------
