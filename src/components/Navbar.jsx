@@ -116,7 +116,7 @@ const Navbar = () => {
                         transition-all duration-300"
           >
             <Download size={16} />
-            <a href="/HEPIN SUTHAR RESUME.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/public/RESUME.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </motion.button>
