@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Download, Menu, X, Sun, Moon } from "lucide-react";
+import resume from "../assets/RESUME.pdf";
 
 const navLinks = ["About", "Skills", "Education", "Certifications", "Projects", "Contact"];
 
@@ -116,7 +117,7 @@ const Navbar = () => {
                         transition-all duration-300"
           >
             <Download size={16} />
-            <a href="/public/RESUME.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={resume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </motion.button>
