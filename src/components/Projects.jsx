@@ -102,7 +102,7 @@ const Projects = () => {
               {/* Buttons */}
               <div className="flex gap-3 mt-2">
                 <a 
-                  href={project.github}
+                  href="https://github.com/hepinsuthar/smart-complaint-management"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 text-center text-sm px-4 py-2 rounded-lg border border-border hover:bg-muted transition"
@@ -111,7 +111,7 @@ const Projects = () => {
                 </a>
 
                 <a
-                  href={project.live}
+                  href="https://smart-complaint-management.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 text-center text-sm px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition"
