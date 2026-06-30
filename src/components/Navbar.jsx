@@ -171,7 +171,9 @@ const Navbar = () => {
                         flex items-center justify-center gap-2"
           >
             <Download size={16} />
-            Resume
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
           </motion.button>
         </motion.div>
       )}
