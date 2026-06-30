@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Download, Menu, X, Sun, Moon } from "lucide-react";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/RESUME.pdf";
 
 const navLinks = ["About", "Skills", "Education", "Certifications", "Projects", "Contact"];
 
